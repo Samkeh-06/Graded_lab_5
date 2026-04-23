@@ -52,7 +52,7 @@ p {
     margin: auto;
 }
 
-/* Hide image initially */
+
 .hidden {
     display: none;
 }
@@ -74,7 +74,7 @@ button {
     cursor: pointer;
 }
 
-/* Disabled button look */
+
 button.disabled {
     opacity: 0.5;
     cursor: not-allowed;
