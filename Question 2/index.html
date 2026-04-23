@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Surname Blender</title>
+    <link rel="stylesheet" href="/Question 2/style.css">
+</head>
+<body>
+
+<h1>Mr. Surname Blender</h1> 
+
+<div> 
+    <span id="user-surname">Surname:</span> 
+    <input id="surname" type="text" size="20" /> 
+</div>
+
+<div> 
+    <span>Font:</span> 
+    <select id="font"> 
+        <option>Arial</option> 
+        <option>Comic Sans MS</option> 
+        <option>Times New Roman</option> 
+    </select> 
+
+    
+    <select id="color">
+       <option value="black">Black</option>
+       <option value="red">Red</option>
+       <option value="blue">Blue</option>
+       <option value="green">Green</option>
+    </select>
+</div>
+
+<!-- Color Picker -->
+<div>
+    <span>Pick Color:</span>
+    <input type="color" id="color-picker">
+</div>
+
+
+<div>
+    <span>Font size:</span>
+    <input type="number" id="font-size" placeholder="font size" value="16">
+</div>
+
+
+<div>
+    <span>Letter Size:</span>
+    <input type="range" id="letter-size" min="10" max="50" value="16">
+</div>
+
+
+<div>
+    <span>Letter Spacing:</span>
+    <input type="range" id="letter-spacing" min="0" max="30" value="15">
+</div>
+
+<div class="position-box"> 
+    <span>Position:</span> 
+    <input id="sequential" name="pos" type="radio" value="seq" checked> Sequential 
+    <input id="random" name="pos" type="radio" value="rand"> Random 
+    <input id="reverse" name="pos" type="radio" value="rev"> Reverse 
+</div>
+
+<!-- Box Resize Slider -->
+<div>
+    <span>Box Size:</span>
+    <input type="range" id="box-size" min="200" max="600" value="300">
+</div>
+
+<!-- Blend Now Button -->
+<div> 
+    <span>Go</span>
+    <input type="button" id="blend-now" value="Blend Now">
+</div>
+
+<!-- Output Area -->
+<div id="message-box"></div>
+
+<script src="/Question 2/java.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+h1 {
+    border: 2px solid black;
+    display: inline-block;
+    padding: 5px 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+#car{
+   border: 2px solid black; 
+   padding:0;
+   padding-left: 0px;
+   margin-left: 380px;
+   margin-right: 380px;
+   font-weight: bold;
+   margin-top: 1px;
+   
+}
+
+
+p {
+    margin: 5px;
+}
+
+
+#car-info {
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+
+#car-info h2 {
+    border: 2px solid black;
+    padding: 5px;
+    margin-bottom: 0;
+    font-size: 16px;
+    width: 250px;
+}
+
+
+#car-img {
+    width: 220px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/* Hide image initially */
+.hidden {
+    display: none;
+}
+
+
+#guess-ui {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+select {
+    padding: 3px;
+    font-weight: bold;
+}
+
+button {
+    padding: 3px 8px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+/* Disabled button look */
+button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+#correct, #total {
+    font-weight: bold;
+}

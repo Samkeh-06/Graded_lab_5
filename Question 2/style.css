@@ -1,0 +1,85 @@
+/*Output area*/
+#message-box {
+    position: relative;
+    width: 300px;
+    height: 120px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-color: orange;
+    border-width: 2px;
+    margin-left:70px ;
+}
+
+#message-box {
+    position: relative;
+    overflow: hidden;
+}
+
+h1{
+    border: 2px solid black;
+    padding:0;
+    margin-left: 40px;
+    /*margin-right: 750px;*/
+    border-width: 2px;
+    width:310px;
+    padding-left:5px
+}
+
+#user-surname{
+   border: 2px solid black; 
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-bottom: 6px;
+}
+
+#color{
+    border: 2px solid black;
+    margin-bottom: 6px; 
+}
+
+#surname{
+    margin-bottom: 6px;
+    width:265px
+}
+ /*div span #random{
+  border: 1px solid black;
+      
+}*/
+.position-box{
+    border: 1px solid black;
+    width: 350px;
+    padding: 5px 5px;
+    margin-top: 8px;
+    
+}
+
+#blend-now{
+    color:white;
+    background-color: green;
+    border-radius: 8px;
+    border:none ;
+    height: 30px;
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+
+
+#color{
+    margin-left: 35px;
+}
+
+#font{
+    margin-left:50px ;
+    width:135px
+}
+
+#color-picker{
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+
+#font-size{
+    margin-left: 19px;
+    width: 40px;
+}
